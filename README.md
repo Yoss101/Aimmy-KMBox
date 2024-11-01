@@ -14,7 +14,7 @@ Required Software:
 - Any other needed drivers for your kmbox or arduino
 
 This is either a 1 PC solution using just "KMBox" in the menu or a two PC solution by selecting "KMBoxWS"* in the menu.
->Note: KMBoxWS requires a server application located [here](#).
+>Note: KMBoxWS requires a server application located [here](https://github.com/Yoss101/Aimmy-KMBox-WSServer).
 
   <p>
     <a href="https://aimmy.dev/" target="_blank">
