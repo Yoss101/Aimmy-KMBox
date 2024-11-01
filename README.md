@@ -16,8 +16,6 @@ Required Software:
 This is either a 1 PC solution using just "KMBox" in the menu or a two PC solution by selecting "KMBoxWS"* in the menu.
 >Note: KMBoxWS requires a server application located [here](#).
 
-> [!NOTE]
-> If you enjoy Aimmy, please consider giving us a star ⭐! We appreciate it! :)
   <p>
     <a href="https://aimmy.dev/" target="_blank">
       <img width="100%" src="https://raw.githubusercontent.com/Babyhamsta/Aimmy/master/readme_assets/AimmyV2Banner.png"></a>
