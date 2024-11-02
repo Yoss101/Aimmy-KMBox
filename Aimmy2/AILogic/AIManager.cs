@@ -454,7 +454,8 @@ namespace Aimmy2.AILogic
                 CenterXTranslated = nearest[0].Item2.CenterXTranslated;
                 CenterYTranslated = nearest[0].Item2.CenterYTranslated;
 
-                SaveFrame(frame, nearest[0].Item2);
+                if (Dictionary.toggleState["Collect Data While Playing"])
+                    SaveFrame(frame);
 
                 return nearest[0].Item2;
             }

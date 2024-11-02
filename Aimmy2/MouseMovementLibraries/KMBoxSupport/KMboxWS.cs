@@ -36,7 +36,7 @@ namespace MouseMovementLibraries.KMBoxWS
                 {
                     if (ip == localIP)
                     {
-                        Console.WriteLine("Do not run Aimmy and the KMBox client on the same machine!\nIf you do not have another computer to use, please select the 'KMBox' method instead.");
+                        new NoticeBar("Do not run Aimmy and the KMBox client on the same machine!\nIf you do not have another computer to use, please select the 'KMBox' method instead.", 10000).Show();
                         continue;
                     }
                     else
@@ -49,13 +49,14 @@ namespace MouseMovementLibraries.KMBoxWS
 
             if (string.IsNullOrEmpty(found))
             {
+                new NoticeBar("KMBox not found! Make sure the server is running on the other machine!", 5000).Show();
                 return false;
             }
 
             // Initialize the connection
             Uri uri = new Uri($"ws://{found}:8765");
             await _webSocket.ConnectAsync(uri, CancellationToken.None);
-            Console.WriteLine($"WebSocket server is listening on {found}:8765!");
+            new NoticeBar("KMBox Connected at " + found + ":8765!", 5000).Show();
             return true;
             //_keepAlive = new Timer(SendKeepAlive, null, TimeSpan.Zero, TimeSpan.FromSeconds(30));
         }
