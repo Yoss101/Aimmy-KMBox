@@ -16,6 +16,12 @@ Required Software:
 This is either a 1 PC solution using just "KMBox" in the menu or a two PC solution by selecting "KMBoxWS"* in the menu.
 >Note: KMBoxWS requires a server application located [here](https://github.com/Yoss101/Aimmy-KMBox-WSServer).
 
+## TODO:
+- [ ] Create a keepalive function for the client to ensure connection doesn't get lost if data isn't sent.
+- [ ] Create a guide for packing the application safely
+- [x] Fix images being saved even if collect data while playing is disabled.
+- [x] Add simple notifications to display connection status
+
   <p>
     <a href="https://aimmy.dev/" target="_blank">
       <img width="100%" src="https://raw.githubusercontent.com/Babyhamsta/Aimmy/master/readme_assets/AimmyV2Banner.png"></a>
