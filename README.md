@@ -8,10 +8,12 @@ Required hardware (only one is needed):
 > Note: While it is possible to build an arduino; soldering is required. If you do not or cannot do it yourself; you can purchase one from [Phoenix Dma](https://www.amazon.com/dp/B0DLKRW4Z1). Please do your own research own product avaliability and compatibility.
 
 Required Software:
-- [CH341SER driver](http://www.wch.cn/downloads/CH341SER_EXE.html)
-- [Windows C++ AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
-- [Windows .net run time](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.10-windows-x64-installer)
-- Any other needed drivers for your kmbox or arduino
+- [CH341SER driver](http://www.wch.cn/downloads/CH341SER_EXE.html) (On second pc preferably)
+- [Windows C++ AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) (On both pcs preferably)
+- [Windows .net run time](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.10-windows-x64-installer) (On both pc preferably)
+- Any other needed drivers for your kmbox or arduino (On second pc preferably)
+
+The main issue is that the serial driver can / will be detected at some point by various anti-cheats. I wouldn't recommend installing it on the main pc at all unless you are POSITIVE that the game you will use it on does not check for this.
 
 This is either a 1 PC solution using just "KMBox" in the menu or a two PC solution by selecting "KMBoxWS"* in the menu.
 >Note: KMBoxWS requires a server application located [here](https://github.com/Yoss101/Aimmy-KMBox-WSServer).
